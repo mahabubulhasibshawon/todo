@@ -1,4 +1,4 @@
-package main
+package model
 
 import "time"
 
@@ -7,5 +7,5 @@ type Todo struct {
 	Title       string    `json:"title"`
 	Description string    `json:"description"`
 	Completed   bool      `json:"completed"`
-	CreatedAT   time.Time `json:"created_at"`
+	CreatedAt   time.Time `json:"created_at"`
 }
